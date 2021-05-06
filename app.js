@@ -57,9 +57,7 @@ const seattle = {
        let thetotalItem = document.createElement ('li');
        unorderedlist.appendChild(totalItem);
     totalItem.textcontent = 'Total : $ {this.total} cookies 
-
      }
-
         
     }
  
@@ -67,7 +65,6 @@ console.log(seattle);
 seattle.calccustomersEachHour();
 seattle.calcCookiesEachHour();
 seattle.randerfunction();
-
 const Tokyo ={
    locationName : 'Tokyo',
    minCustmer : 3,
@@ -255,4 +252,13 @@ console .log(Lima);
 Lima.calcCustmerEachHours();
 Lima.calcCookiesEachHour();
 Lima.renderfunction();
-  
+
+let button=document.getElementById('btn');
+let parent=document.getElementById('container');
+
+button.addEventlistner('click,function'){
+      let p = document .createElement ('p');
+      parent.appendChild ('p');
+       p. textContent =( 'salmoon cookies')
+}
+console.log (parent);
